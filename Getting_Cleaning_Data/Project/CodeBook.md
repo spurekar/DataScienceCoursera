@@ -11,7 +11,7 @@ The objective of the assignment was to create one R script called run_analysis.R
 
 ##Code Walk-through
 
-The code from the Run_analysis file creates a function Run_analysis() which 
+The code from the `Run_analysis.R` file creates a function Run_analysis() which 
 
 1. Sets up the environment by loading the dplyr library
 2. Imports the following data files:
