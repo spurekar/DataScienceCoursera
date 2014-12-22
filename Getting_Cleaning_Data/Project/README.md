@@ -11,7 +11,12 @@ The objective of the assignment was to create one R script called run_analysis.R
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-In this repository I have included: the original dataset, a code book to explain the data, the R script which creates the tidy data set, and the tidy data set which the script outputs as a text file.
+In this repository I have included: 
+  - `UCI HAR Dataset.zip` : the original dataset in zip format, 
+  - `CodeBook.md` : a code book to explain the data, 
+  - `Run_analysis.R` : the R script which creates the tidy data set,
+  - `SummaryData.txt` : the tidy data set which the script outputs as a text file, and
+  - `ReadMe.md` : this read me file.
 
 ##Original ReadMe
 ###The original README for the data is shown below:
