@@ -7,39 +7,24 @@ Activity: which of the 6 activities the observation records
 
 Averages of mean and standard deviation for each of the features from the initial study:
 
-tBodyAcc-XYZ
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
-tGravityAcc-XYZ
-
-tBodyAccJerk-XYZ
-
-tBodyGyro-XYZ
-
-tBodyGyroJerk-XYZ
-
-tBodyAccMag
-
-tGravityAccMag
-
-tBodyAccJerkMag
-
-tBodyGyroMag
-
-tBodyGyroJerkMag
-
-fBodyAcc-XYZ
-
-fBodyAccJerk-XYZ
-
-fBodyGyro-XYZ
-
-fBodyAccMag
-
-fBodyAccJerkMag
-
-fBodyGyroMag
-
-fBodyGyroJerkMag
 
 ##Original feature file
 The original file with the feature explanations is here:
