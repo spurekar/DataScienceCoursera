@@ -1,3 +1,35 @@
+##Summary
+This is an assignment for The Coursera Getting and Cleaning Data course offered by Johns Hopkins.
+
+The objective of the assignment was to create one R script called run_analysis.R that does the following:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+##Code Walk-through
+
+The code from the Run_analysis file creates a function Run_analysis() which 
+
+1. Sets up the environment by loading the dplyr library
+2. Imports the following data files:
+    - X_train.txt and X_test.txt which have the feature data from each of the 30 subjects
+    - subject_train.txt and subject_test.txt which list the subject tested in the same order as the training data
+    - y_train.txt and y_test.txt which list the subject tested as a number in the same order as the training data
+    - features.txt which lists each feature tested in the data files (used as the column headers for the data)
+    - activity_labels.txt which has the desciption of each activity listed in the y-train and y-test files
+3. Adds column names to test and train data using the features file
+4. Extracts mean and standard deviation variables for each of the features using the dplyr 'select' function
+6. Combines the mean and standard deviation data for the training and test data sets
+6. Adds information about the subject and the activities (numeric) using 'cbind' to both data sets
+7. Combines the test and train data in to one large data set
+8. Adds descriptive activity names to the second column of the data using factors
+9. Makes the relevant data numeric for grouping and summarizing purposes
+10. Groups (group_by) and summarizes (summarise_each) the data with the average of each variable for each activity and each subject
+11. returns the tidy data set of averages
+
 ##Code Book Variables
 The datafile SummaryData.txt includes the following variables:
 
