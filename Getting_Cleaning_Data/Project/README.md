@@ -14,7 +14,7 @@ The objective of the assignment was to create one R script called run_analysis.R
 In this repository I have included: the original dataset, a code book to explain the data, the R script which creates the tidy data set, and the tidy data set which the script outputs as a text file.
 
 ##Original ReadMe
-The original README for the data is shown below:
+###The original README for the data is shown below:
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
