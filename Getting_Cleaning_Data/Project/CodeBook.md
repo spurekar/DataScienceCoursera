@@ -2,25 +2,43 @@
 The datafile SummaryData.txt includes the following variables:
 
 Subject: which of the 30 volunteers the observation pertains to
+
 Activity: which of the 6 activities the observation records
+
 Averages of mean and standard deviation for each of the features from the initial study:
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
+tBodyAcc-XYZ
+
+tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 ##Original feature file
